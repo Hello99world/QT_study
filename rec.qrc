@@ -1,0 +1,42 @@
+<RCC>
+    <qresource prefix="/">
+        <file>rec/image/add.png</file>
+        <file>rec/image/diannao.png</file>
+        <file>rec/image/guanbi.png</file>
+        <file>rec/image/jiankong.png</file>
+        <file>rec/image/shezhi.png</file>
+        <file>rec/image/shuju.png</file>
+        <file>rec/image/tiaoj.png</file>
+        <file>rec/image/yanshi.png</file>
+        <file>rec/image/zuixiao.png</file>
+        <file>rec/image/zuoda.png</file>
+        <file>rec/qss/style.qss</file>
+        <file>rec/image/mainlogo.png</file>
+        <file>rec/image/dsys0.png</file>
+        <file>rec/image/dsys1.png</file>
+        <file>rec/image/dsys2.png</file>
+        <file>rec/image/dsys3.png</file>
+        <file>rec/qss/rec.qss</file>
+        <file>rec/image/login.png</file>
+        <file>rec/image/close.png</file>
+        <file>rec/image/close_1.png</file>
+        <file>rec/image/logo.png</file>
+        <file>rec/image/portadd.png</file>
+        <file>rec/image/portclear.png</file>
+        <file>rec/image/portdele.png</file>
+        <file>rec/image/portdown.png</file>
+        <file>rec/image/portre.png</file>
+        <file>rec/image/portsave.png</file>
+        <file>rec/image/portup.png</file>
+        <file>rec/image/databaoj.png</file>
+        <file>rec/image/datayunxing.png</file>
+        <file>rec/image/yonghu.png</file>
+        <file>rec/image/min.JPG</file>
+        <file>rec/qss/PoliceRecord.qss</file>
+        <file>rec/qss/BasicSettings.qss</file>
+        <file>rec/image/shujujiankong.png</file>
+        <file>rec/qss/DataMonitoring.qss</file>
+        <file>rec/image/duigou.png</file>
+        <file>rec/image/xialakuang.png</file>
+    </qresource>
+</RCC>
