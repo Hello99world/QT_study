@@ -1,0 +1,57 @@
+
+/**********basicsettings 基本设置************/
+
+
+#basicsettings QWidget {
+    background-color: #0E1A32;      /* 主背景 */
+    color: #D6E6F2;                 /* 主文字 */
+    font-family: "Microsoft YaHei";
+    font-size: 14px;
+}
+
+#basicsettings QGroupBox {
+    border: 1px solid #1F4C6B;      /* 统一边框蓝 */
+    border-radius: 6px;
+    margin-top: 20px;
+    padding-top: 16px;
+}
+
+#basicsettings QGroupBox::title {
+    subcontrol-origin: margin;
+    left: 12px;
+    top: 0px;
+    padding: 0 6px;
+    color: #498fbc;            /* 统一字体颜色 */
+    background: transparent;
+}
+
+#basicsettings QLineEdit,
+#basicsettings QComboBox {
+    background-color: #102040;      /* 表格交替行色 */
+    border: 1px solid #1F4C6B;
+    border-radius: 4px;
+    padding: 6px;
+    color: #D6E6F2;
+}
+
+#basicsettings QLineEdit:focus,
+#basicsettings QComboBox:focus {
+    border: 1px solid #498fbc;      /* 主界面蓝 */
+}
+
+#basicsettings QPushButton {
+    background-color: #133050;
+    border: 1px solid #1F4C6B;
+    border-radius: 6px;
+    padding: 8px;
+    color: #8FBFE6;
+}
+
+#basicsettings QPushButton:hover {
+    background-color: #033967;      /* 选中/悬停蓝 */
+    color: #FFFFFF;
+}
+
+#basicsettings QPushButton:pressed {
+    background-color: #022C52;
+}

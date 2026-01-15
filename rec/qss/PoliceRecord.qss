@@ -1,0 +1,219 @@
+/************* PoliceRecord 报警记录页面 *************/
+
+/* 按钮 */
+#MainWindow #PoliceRecord QPushButton {
+    background-color: #133050;
+    border: 1px solid #1F4C6B;
+    border-radius: 6px;
+    padding: 6px 14px;
+    color: #8FBFE6;
+}
+
+#MainWindow #PoliceRecord QPushButton:hover {
+    background-color: #033967;
+    color: #FFFFFF;
+}
+
+#MainWindow #PoliceRecord QPushButton:disabled {
+    background-color: #1A2F4A;
+    color: #5A7C99;
+    border-color: #1A2F4A;
+}
+
+/* 表格 */
+#MainWindow #PoliceRecord QTableView {
+    background-color: #0E1A32;
+    alternate-background-color: #102040;
+    color: #D6E6F2;
+    gridline-color: #1F4C6B;
+    border: 1px solid #1F4C6B;
+    selection-background-color: #033967;
+    selection-color: #FFFFFF;
+}
+
+#MainWindow #PoliceRecord QHeaderView::section {
+    background-color: #033967;
+    color: #D6E6F2;
+    padding: 6px;
+    border: 1px solid #1F4C6B;
+    font-weight: bold;
+}
+
+#MainWindow #PoliceRecord QHeaderView::section:hover {
+    background-color: #044A88;
+}
+
+/* 复选框 */
+#MainWindow #PoliceRecord QCheckBox {
+    color: #8FBFE6;
+    spacing: 6px;
+}
+
+#MainWindow #PoliceRecord QCheckBox:hover {
+    color: #FFFFFF;
+}
+
+#MainWindow #PoliceRecord QCheckBox::indicator {
+    width: 16px;
+    height: 16px;
+    background-color: #0E1A32;
+    border: 1px solid #1F4C6B;
+    border-radius: 3px;
+}
+
+#MainWindow #PoliceRecord QCheckBox::indicator:checked {
+background-color: transparent;  /* 透明背景 */
+border: none;  /* 移除边框 */
+background-color: #0E1A32;
+ border: 1px solid #498fbc;
+image: url(:/rec/image/duigou.png);  /* 选中图标 */
+}
+
+#MainWindow #PoliceRecord QCheckBox::indicator:hover {
+    border-color: #498fbc;
+}
+
+/* 下拉框  */
+#MainWindow #PoliceRecord QComboBox {
+    background-color: #0E1A32;
+    border: 1px solid #1F4C6B;
+    border-radius: 4px;
+    padding: 4px 8px;
+    color: #D6E6F2;
+    min-height: 24px;
+}
+
+#MainWindow #PoliceRecord QComboBox:hover {
+    border-color: #498fbc;
+}
+
+#MainWindow #PoliceRecord QComboBox::drop-down {
+    subcontrol-origin: padding;
+    subcontrol-position: top right;
+    width: 25px;
+    border-left: 1px solid #1F4C6B;
+    background-color: #0E1A32;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+}
+
+#MainWindow #PoliceRecord QComboBox::down-arrow {
+    width: 16px;
+    height: 16px;
+    image: url(:/rec/image/xialakuang.png);  /* 自定义箭头图标 */
+}
+
+#MainWindow #PoliceRecord QComboBox QAbstractItemView {
+    background-color: #0E1A32;
+    border: 1px solid #1F4C6B;
+    color: #D6E6F2;
+    selection-background-color: #033967;
+    selection-color: #FFFFFF;
+    outline: none;
+}
+
+/* 文本框 - 与背景同色 */
+#MainWindow #PoliceRecord QLineEdit {
+    background-color: #0E1A32;
+    border: 1px solid #1F4C6B;
+    border-radius: 4px;
+    padding: 4px 8px;
+    color: #D6E6F2;
+    min-height: 24px;
+}
+
+#MainWindow #PoliceRecord QLineEdit:hover {
+    border-color: #498fbc;
+}
+
+#MainWindow #PoliceRecord QLineEdit:focus {
+    border-color: #7CFCFF;
+}
+
+/* 日期时间选择器 - 与背景同色 */
+#MainWindow #PoliceRecord QDateTimeEdit {
+    background-color: #0E1A32;
+    border: 1px solid #1F4C6B;
+    border-radius: 4px;
+    padding: 4px 8px;
+    color: #D6E6F2;
+    min-height: 24px;
+}
+
+#MainWindow #PoliceRecord QDateTimeEdit:hover {
+    border-color: #498fbc;
+}
+
+#MainWindow #PoliceRecord QDateTimeEdit:focus {
+    border-color: #7CFCFF;
+}
+
+#MainWindow #PoliceRecord QDateTimeEdit::drop-down {
+    subcontrol-origin: padding;
+    subcontrol-position: top right;
+    width: 20px;
+    border-left: 1px solid #1F4C6B;
+    background-color: #0E1A32;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+}
+
+/* 日历弹窗 */
+#MainWindow #PoliceRecord QCalendarWidget {
+    background-color: #0E1A32;
+    color: #D6E6F2;
+}
+
+#MainWindow #PoliceRecord QCalendarWidget QToolButton {
+    background-color: #133050;
+    color: #D6E6F2;
+    border: none;
+    border-radius: 4px;
+    padding: 4px;
+}
+
+#MainWindow #PoliceRecord QCalendarWidget QToolButton:hover {
+    background-color: #033967;
+}
+
+#MainWindow #PoliceRecord QCalendarWidget QSpinBox {
+    background-color: #0E1A32;
+    color: #D6E6F2;
+    border: 1px solid #1F4C6B;
+}
+
+#MainWindow #PoliceRecord QCalendarWidget QTableView {
+    background-color: #0E1A32;
+    alternate-background-color: #102040;
+    color: #D6E6F2;
+    selection-background-color: #033967;
+    selection-color: #FFFFFF;
+}
+
+/* 普通标签 */
+#MainWindow #PoliceRecord QLabel {
+    color: #8FBFE6;
+    background-color: transparent;
+}
+
+/* 分页信息标签 - 整行大块显示 */
+#MainWindow #PoliceRecord QLabel#lblPageInfo {
+    background-color: #133050;
+    border: 1px solid #1F4C6B;
+    border-radius: 6px;
+    padding: 6px 14px;
+    color: #498fbc;
+    font-size: 13px;
+}
+
+#MainWindow #PoliceRecord QLabel#lblPageInfo:hover {
+    background-color: #1A3A5C;
+    border-color: #498fbc;
+}
+
+/* 分隔线 */
+#MainWindow #PoliceRecord QFrame[frameShape="4"] {
+    background-color: #1F4C6B;
+    border: none;
+    max-height: 1px;
+}

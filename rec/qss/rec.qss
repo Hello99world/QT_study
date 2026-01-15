@@ -1,0 +1,51 @@
+#LoginWindow QWidget {
+    font-family: "Microsoft YaHei";
+}
+
+#LoginWindow QLabel {
+    color: #fff;
+    font-weight: bold;
+}
+
+#LoginWindow #top {
+    background-color: #133050;
+}
+
+#LoginWindow #center {
+    background-color: #5c73a4;
+}
+
+#LoginWindow #center QLabel {
+    font: bold 24px "Microsoft YaHei";
+}
+
+#LoginWindow #bottom {
+    background-color: #5c73a4;
+}
+
+#LoginWindow #bottom QCheckBox {
+    color: #fff;
+}
+
+#LoginWindow QLineEdit {
+    border: 1px solid black;
+    border-radius: 3px;
+    height: 24px;
+}
+
+#LoginWindow QPushButton {
+    border: 1px solid black;
+    background-color: #565656;
+    border-radius: 5px;
+    height: 24px;
+    color: #fff;
+    font-weight: bold;
+}
+
+#LoginWindow #closeLabel {
+    background: url(:/rec/image/close.png) no-repeat center center;
+}
+
+#LoginWindow #closeLabel:hover {
+    background: url(:/rec/image/close_1.png) no-repeat center center;
+}

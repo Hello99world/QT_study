@@ -1,0 +1,57 @@
+/************* DataMonitoring *************/
+
+/*按钮*/
+#MainWindow #DataMonitoring QPushButton {
+    background-color: #133050;
+    border: 1px solid #1F4C6B;
+    border-radius: 6px;
+    padding: 6px 14px;
+    color: #8FBFE6;
+}
+
+/*按钮悬停*/
+#MainWindow #DataMonitoring QPushButton:hover {
+    background-color: #033967;
+    color: #FFFFFF;
+}
+
+/*按钮按下*/
+#MainWindow #DataMonitoring QPushButton:disabled {
+    background-color: #1A2F4A;
+    color: #5A7C99;
+    border-color: #1A2F4A;
+}
+
+/*表格*/
+#MainWindow #DataMonitoring QTableView {
+    background-color: #0E1A32;
+    alternate-background-color: #102040;
+    color: #D6E6F2;
+    gridline-color: #1F4C6B;   /* 表格线颜色 */
+    border: 1px solid #1F4C6B;
+    selection-background-color: #033967;
+    selection-color: #FFFFFF;
+}
+
+/*表格居中*/
+#MainWindow #DataMonitoring QTableView::item {
+    text-align: center;
+    vertical-align: middle;
+}
+#MainWindow #DataMonitoring QHeaderView::section {
+    text-align: center;
+}
+
+/*表格选中*/
+#MainWindow #DataMonitoring QHeaderView::section {
+    background-color: #033967;
+    color: #D6E6F2;
+    padding: 6px;
+    border: 1px solid #1F4C6B;
+    font-weight: bold;
+}
+
+/*表格悬停*/
+#MainWindow #DataMonitoring QHeaderView::section:hover {
+    background-color: #044A88;
+}

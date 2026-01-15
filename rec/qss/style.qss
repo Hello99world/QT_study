@@ -1,0 +1,171 @@
+/*****************主界面*****************/
+
+/* 全局设置 */
+#MainWindow * {
+    font-family: "Microsoft YaHei";
+    font-size: 13px;
+    color: #D6E6F2;
+}
+
+#MainWindow QWidget {
+    background-color: #0E1A32;
+}
+
+/* 顶部栏 TopBar*/
+#MainWindow QWidget#topBar,
+#MainWindow QWidget#topLeft,
+#MainWindow QWidget#topCenter,
+#MainWindow QWidget#topRight {
+    background-color: #133050;
+    background-clip: border;
+}
+
+/* 顶部左侧标题区域 */
+/* 中文 */
+#MainWindow QLabel#cnTitle {
+    background-color: #133050;
+    font-size: 18px;
+    font-weight: bold;
+    color: #498fbc;
+}
+
+/* 英文 */
+#MainWindow QLabel#enTitle {
+    background-color: #133050;
+    font-size: 11px;
+    color: #498fbc;
+}
+
+/* 顶部功能按钮*/
+#MainWindow QPushButton#topFuncBtn {
+    background: transparent;
+    border: none;
+    padding: 8px 18px;
+    color: #8FBFE6;
+}
+
+/* 悬停状态 */
+#MainWindow QPushButton#topFuncBtn:hover {
+    color: #FFFFFF;
+}
+
+/* 选中状态 */
+#MainWindow QPushButton#topFuncBtn:checked {
+    background-color: #033967;
+    border-radius: 14px;
+    color: #FFFFFF;
+}
+
+/* 右上角窗口控制按钮*/
+#MainWindow QPushButton#winBtnMin,
+#MainWindow QPushButton#winBtnMax,
+#MainWindow QPushButton#winBtnClose {
+    background: transparent;
+    border: none;
+    min-width: 26px;
+    min-height: 26px;
+    background-color: #133050;
+}
+
+/* 前两按钮悬停 */
+#MainWindow QPushButton#winBtnMin:hover,
+#MainWindow QPushButton#winBtnMax:hover {
+    background-color: #033967;
+    border-radius: 6px;
+}
+
+/* 关闭按钮悬停 */
+#MainWindow QPushButton#winBtnClose:hover {
+    background-color: #C0392B;
+    border-radius: 6px;
+}
+
+/* 顶部栏右侧时钟 */
+#MainWindow QLCDNumber#digitalClock {
+    color: #498fbc;
+    background-color: #133050;
+    border-radius: 4px;
+    min-width: 120px;
+    min-height: 30px;
+}
+
+/*  系统设置页 —左侧菜单栏 */
+#MainWindow QListWidget#sysMenu {
+    background-color: #0B1A28;
+    border-right: 1px solid #1F4C6B;
+    outline: none;
+}
+
+/* 普通菜单项 */
+#MainWindow QListWidget#sysMenu::item {
+    height: 44px;
+    margin: 6px 8px;
+    padding-left: 12px;
+    border-radius: 10px;
+    color: #8FBFE6;
+}
+/* 悬停状态 */
+#MainWindow QListWidget#sysMenu::item:hover {
+    background-color: #033967;
+}
+
+/* 选中状态 */
+#MainWindow QListWidget#sysMenu::item:selected {
+    background-color: #033967;
+    color: #FFFFFF;
+}
+
+/* 系统设置页 —右侧 */
+#MainWindow QStackedWidget#sysContent {
+    background-color: #0E1A32;
+}
+
+
+/************* PortManagement端口管理等三个页面 *************/
+
+/*按钮*/
+#MainWindow #PortManagement QPushButton {
+    background-color: #133050;
+    border: 1px solid #1F4C6B;
+    border-radius: 6px;
+    padding: 6px 14px;
+    color: #8FBFE6;
+}
+
+/*按钮悬停*/
+#MainWindow #PortManagement QPushButton:hover {
+    background-color: #033967;
+    color: #FFFFFF;
+}
+
+/*按钮按下*/
+#MainWindow #PortManagement QPushButton:disabled {
+    background-color: #1A2F4A;
+    color: #5A7C99;
+    border-color: #1A2F4A;
+}
+
+/*表格*/
+#MainWindow #PortManagement QTableView {
+    background-color: #0E1A32;
+    alternate-background-color: #102040;
+    color: #D6E6F2;
+    gridline-color: #1F4C6B;   /* 表格线颜色 */
+    border: 1px solid #1F4C6B;
+    selection-background-color: #033967;
+    selection-color: #FFFFFF;
+}
+
+/*表格选中*/
+#MainWindow #PortManagement QHeaderView::section {
+    background-color: #033967;
+    color: #D6E6F2;
+    padding: 6px;
+    border: 1px solid #1F4C6B;
+    font-weight: bold;
+}
+
+/*表格悬停*/
+#MainWindow #PortManagement QHeaderView::section:hover {
+    background-color: #044A88;
+}
